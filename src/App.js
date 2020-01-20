@@ -38,7 +38,7 @@ export default class App extends React.Component {
               </div>
             </div>
             <div className="component-usp-row">
-              <div className="item team">
+              {/* <div className="item team">
                 <img
                   className="image"
                   src="https://learntocodetogether.nl/assets/team.svg"
@@ -46,8 +46,21 @@ export default class App extends React.Component {
                 <div className="component-title title">
                   Get help from experienced developers
                 </div>
-              </div>
-              <div className="item team">
+              </div> */}
+              <team
+                image="https://learntocodetogether.nl/assets/team.svg"
+                content="Get help from experienced developers"
+              />
+              <team
+                image="https://learntocodetogether.nl/assets/community.svg"
+                content="Learn &amp; share with our community"
+              />
+              <team
+                image="https://learntocodetogether.nl/assets/personal-speed.svg"
+                content="Personal &amp; at your own speed"
+              />
+
+              {/* <div className="item team">
                 <img
                   className="image"
                   src="https://learntocodetogether.nl/assets/community.svg"
@@ -55,8 +68,9 @@ export default class App extends React.Component {
                 <div className="component-title title">
                   Learn &amp; share with our community
                 </div>
-              </div>
-              <div className="item team">
+              </div> */}
+
+              {/* <div className="item team">
                 <img
                   className="image"
                   src="https://learntocodetogether.nl/assets/personal-speed.svg"
@@ -64,7 +78,7 @@ export default class App extends React.Component {
                 <div className="component-title title">
                   Personal &amp; at your own speed
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="section-line">
@@ -84,7 +98,19 @@ export default class App extends React.Component {
               </div>
             </div>
             <div className="component-usp-row">
-              <div className="item team">
+              <team
+                image="https://learntocodetogether.nl/assets/expand-horizon.svg"
+                content="Learn new skills and expand your horizon"
+              />
+              <team
+                image="https://learntocodetogether.nl/assets/developers.svg"
+                content="Follow courses created by experienced developers"
+              />
+              <team
+                image="https://learntocodetogether.nl/assets/step-by-step.svg"
+                content="Fun, hands on and easy to follow"
+              />
+              {/* <div className="item team">
                 <img
                   className="image"
                   src="https://learntocodetogether.nl/assets/expand-horizon.svg"
@@ -92,8 +118,8 @@ export default class App extends React.Component {
                 <div className="component-title title">
                   Learn new skills and expand your horizon
                 </div>
-              </div>
-              <div className="item team">
+              </div> */}
+              {/* <div className="item team">
                 <img
                   className="image"
                   src="https://learntocodetogether.nl/assets/developers.svg"
@@ -101,8 +127,8 @@ export default class App extends React.Component {
                 <div className="component-title title">
                   Follow courses created by experienced developers
                 </div>
-              </div>
-              <div className="item team">
+              </div> */}
+              {/* <div className="item team">
                 <img
                   className="image"
                   style={{ width: "200px" }}
@@ -111,7 +137,7 @@ export default class App extends React.Component {
                 <div className="component-title title">
                   Fun, hands on and easy to follow
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="section-line">
